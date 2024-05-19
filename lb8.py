@@ -1,6 +1,5 @@
 import requests
 from PIL import Image, ImageDraw, ImageFont
-import os
 from io import BytesIO
 
 photo = requests.get(
